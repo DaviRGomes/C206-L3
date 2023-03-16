@@ -6,10 +6,17 @@ public class Carro {
     String modelo;
     double velocidadeMaxima;
     double velocidadeAtual;
+    Motor motor;
+
+    public Carro(){
+
+        motor = new Motor();
+
+    }
 
     void ligar(){
 
-        System.out.println("Ligando o carro, velocidade: 0");
+        System.out.println("Ligando o carro");
         System.out.println();
     }
 
@@ -21,11 +28,12 @@ public class Carro {
 
     void mostraInfo(){
 
-        System.out.println(cor);
-        System.out.println(marca);
-        System.out.println(modelo);
-        System.out.println(velocidadeAtual);
-        System.out.println(velocidadeMaxima);
+        System.out.println("Mostrar as informações:");
+        System.out.println("Nome : "+ cor);
+        System.out.println("Marca : "+ marca);
+        System.out.println("Modelo : "+ modelo);
+        System.out.println("Velocidade atual : "+ velocidadeAtual);
+        System.out.println("Velocidade maxima : "+ velocidadeMaxima);
         System.out.println();
 
     }

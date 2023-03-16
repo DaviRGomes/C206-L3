@@ -8,14 +8,14 @@ public class Produto {
     int quantidade; // quantidade de produtos que tem
 
 
-    Produto(int codigoSerie, String codigoProduto, String nome, String categoria, int quantidade){
-        this.codigoSerie = codigoSerie;
-        this.codigoProduto = codigoProduto;
-        this.nome = nome;
-        this.categoria = categoria;
-        this.quantidade = quantidade;
-    }
-
+    /* Produto(int codigoSerie, String codigoProduto, String nome, String categoria, int quantidade){
+    this.codigoSerie = codigoSerie
+    this.codigoProduto = codigoProduto;
+    this.nome = nome;
+    this.categoria = categoria;
+    this.quantidade = quantidade;
+     }
+    */
 
 
     // saida - metodo mostraInfo
@@ -25,6 +25,7 @@ public class Produto {
         System.out.println("Nome do produto : " + nome);
         System.out.println("Categoria do produto : " + categoria);
         System.out.println("Quantidade que tem do produto : " + quantidade);
+        System.out.println();
 
     }
 }
