@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6b73a98-5555-43c7-8167-d97d2bbc5593" name="Changes" comment="" />
+    <list default="true" id="ba286697-f9b9-4561-92d2-3537ca783fca" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +23,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2N7Y02mGYxaz3g8z9usTfRYKsoj" />
+  <component name="ProjectId" id="2NFWS0vLcZOUBE9f8VA0VIbWrVf" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,18 +31,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Davi  Gay/Desktop/C206-L3/C206-L3/aula_15_03/Exercicio2"
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e6b73a98-5555-43c7-8167-d97d2bbc5593" name="Changes" comment="" />
-      <created>1679016363248</created>
+      <changelist id="ba286697-f9b9-4561-92d2-3537ca783fca" name="Changes" comment="" />
+      <created>1679260308412</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1679016363248</updated>
+      <updated>1679260308412</updated>
     </task>
     <servers />
   </component>
