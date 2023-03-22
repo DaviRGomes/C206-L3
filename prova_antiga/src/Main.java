@@ -41,13 +41,18 @@ public class Main {
 
             System.out.println("Favor digite de 1 a 5");
             saida = entrada.nextInt();
+            entrada.nextLine();
 
             switch (saida) {
                 // adicionando carta
                 case 1:
-                    c4.nome = "Gladiador";
-                    c4.poder = 25;
-                    c4.classificacao = "pesados";
+                    System.out.println("a");
+                    c4.nome = entrada.nextLine();
+                    System.out.println("b");
+                    c4.poder = entrada.nextInt();
+                    entrada.nextLine();
+                    System.out.println("c");
+                    c4.classificacao = entrada.nextLine();
                     d1.adicionarCarta(c4);
                     break;
                 // mostrando todas as informações
