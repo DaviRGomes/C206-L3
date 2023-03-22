@@ -72,6 +72,11 @@ public class Main {
                 case 5:
                     i = false;
                     break;
+                default:
+                    System.out.println("Insira um numero valido");
+                    System.out.println();
+                    break;
+
             }
         }
     }
