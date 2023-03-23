@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba286697-f9b9-4561-92d2-3537ca783fca" name="Changes" comment="" />
+    <list default="true" id="ba286697-f9b9-4561-92d2-3537ca783fca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../pv1_Davi_Rosa_Gomes/src/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prova_henrique/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../../prova_henrique/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prova_henrique/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../prova_henrique/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prova_henrique/src/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../prova_henrique/src/Livro.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +37,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Usuario/Desktop/C206-L3/C206-L3/aula_15_03/Exercicio2/src"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

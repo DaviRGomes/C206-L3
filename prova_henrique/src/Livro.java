@@ -18,6 +18,7 @@ public class Livro {
         System.out.println("Genero do livro :" + genLiterario);
         System.out.println("Quantidade de folhas do livro :" + qtdFolhas);
         System.out.println("Editora do livro :" + editora);
+        autor.mostraInfos();
 
     }
 
