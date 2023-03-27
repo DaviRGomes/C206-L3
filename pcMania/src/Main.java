@@ -109,7 +109,6 @@ public class Main {
         System.out.println("Valor da compra total : " + soma);
 
         entrada.close();
-
-
+        
     }
 }
