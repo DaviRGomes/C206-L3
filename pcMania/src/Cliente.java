@@ -1,6 +1,6 @@
 public class Cliente {
     String nome;
-    int cpf;
+    long cpf;
     Computador computador[] = new Computador[15];
 
     public Cliente(String nome, int cpf) {

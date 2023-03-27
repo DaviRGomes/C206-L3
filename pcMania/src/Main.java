@@ -6,7 +6,7 @@ public class Main {
 
         Scanner entrada = new Scanner(System.in);
         // criando uma unica classe cliente
-        Cliente c1 = new Cliente("Davi", 22313);
+        Cliente cliente = new Cliente("Davi", 953854738);
         // Promoção 1
         Computador comp1 = new Computador("Positivo", 2300, "Linux Ubuntu", 32,  8, "Gb de HD",500, "Pentium Core i3", 2200);
         MemoriaUSB usb1 = new MemoriaUSB("Pen drive Gb", 16);
@@ -29,7 +29,7 @@ public class Main {
         comp3.mostraPCConfigs();
 
 
-        System.out.println("Menu de compras :");
+        System.out.println("Menu de compras:");
         System.out.println("Voce pode inserir o numero 1 para realizar a compra da Promocao 1");
         System.out.println("Voce pode inserir o numero 2 para realizar a compra da Promocao 2");
         System.out.println("Voce pode inserir o numero 3 para realizar a compra da Promocao 3");
@@ -52,9 +52,9 @@ public class Main {
             switch (res) {
 
                 case 1:
-                    for (int i = 0; i < c1.computador.length; i++) {
-                        if (c1.computador[i] == null) {
-                            c1.computador[i] = comp1;
+                    for (int i = 0; i < cliente.computador.length; i++) {
+                        if (cliente.computador[i] == null) {
+                            cliente.computador[i] = comp1;
                             break;
                         }
                     }
@@ -62,18 +62,18 @@ public class Main {
 
                     break;
                 case 2:
-                    for (int i = 0; i < c1.computador.length; i++) {
-                        if (c1.computador[i] == null) {
-                            c1.computador[i] = comp2;
+                    for (int i = 0; i < cliente.computador.length; i++) {
+                        if (cliente.computador[i] == null) {
+                            cliente.computador[i] = comp2;
                             break;
                         }
                     }
                     aux_p2++;
                     break;
                 case 3:
-                    for (int i = 0; i < c1.computador.length; i++) {
-                        if (c1.computador[i] == null) {
-                            c1.computador[i] = comp3;
+                    for (int i = 0; i < cliente.computador.length; i++) {
+                        if (cliente.computador[i] == null) {
+                            cliente.computador[i] = comp3;
                             break;
                         }
                     }
@@ -90,22 +90,24 @@ public class Main {
             }
         }
 
+        System.out.println("Dados da compra :");
+        System.out.println("Nome do cliente: " + cliente.nome);
+        System.out.println("CPF do cliente: " + cliente.cpf);
+        System.out.println();
+
         if (aux_p1 >= 1) {
             System.out.println("Foram feitas " + aux_p1 + " compra da Promocao 1 : ");
-            System.out.println();
-            c1.computador[0].mostraPCConfigs();
+            cliente.computador[0].mostraPCConfigs();
         }
         if (aux_p2 >= 1) {
             System.out.println("Foram feitas " + aux_p2 + " compra da Promocao 2 : ");
-            System.out.println();
-            c1.computador[1].mostraPCConfigs();
+            cliente.computador[1].mostraPCConfigs();
         }
         if (aux_p3 >= 1) {
             System.out.println("Foram feitas " + aux_p3 + " compra da Promocao 3 : ");
-            System.out.println();
-            c1.computador[2].mostraPCConfigs();
+            cliente.computador[2].mostraPCConfigs();
         }
-        soma = c1.calcula();
+        soma = cliente.calcula();
         System.out.println("Valor da compra total : " + soma);
 
         entrada.close();
