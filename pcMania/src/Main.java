@@ -107,7 +107,7 @@ public class Main {
             System.out.println("Foram feitas " + aux_p3 + " compra da Promocao 3 : ");
             cliente.computador[2].mostraPCConfigs();
         }
-        soma = cliente.calcula();
+        soma = cliente.calculaTotalCompra();
         System.out.println("Valor da compra total : " + soma);
 
         entrada.close();

@@ -8,7 +8,7 @@ public class Cliente {
         this.cpf = cpf;
     }
 
-    public float calcula() {
+    public float calculaTotalCompra() {
         float soma = 0;
         for (int i = 0; i < computador.length; i++) {
             if (computador[i] != null) {
