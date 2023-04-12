@@ -1,28 +1,31 @@
-public class Notebook  extends Produto{
+public class Notebook extends Produto {
 
     // variaveis
     private double armazenamento;
     private String gpu;
     private String processador;
 
-    public double getArmazenamento(){
+    public double getArmazenamento() {
         return armazenamento;
     }
-    public void setArmazenamento(double armazenamento){
+
+    public void setArmazenamento(double armazenamento) {
         this.armazenamento = armazenamento;
     }
 
-    public String getGpu(){
+    public String getGpu() {
         return gpu;
     }
-    public void setGpu(String gpu){
+
+    public void setGpu(String gpu) {
         this.gpu = gpu;
     }
 
-    public String getProcessador(){
+    public String getProcessador() {
         return processador;
     }
-    public void setProcessador(String processador){
+
+    public void setProcessador(String processador) {
         this.processador = processador;
     }
 

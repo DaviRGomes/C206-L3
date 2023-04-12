@@ -1,18 +1,20 @@
-public class Camiseta extends Produto{
+public class Camiseta extends Produto {
     private String cor;
     private String tamanho;
 
-    public String getCor(){
+    public String getCor() {
         return cor;
     }
-    public void setCor(String cor){
+
+    public void setCor(String cor) {
         this.cor = cor;
     }
 
-    public String getTamanho(){
+    public String getTamanho() {
         return tamanho;
     }
-    public void setTamanho(String tamanho){
+
+    public void setTamanho(String tamanho) {
         this.tamanho = tamanho;
     }
 

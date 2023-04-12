@@ -54,6 +54,7 @@ public class Main {
                     break;
 
                 default:
+                    i -= 1;
                     System.out.println("Digite um valor correto");
             }
         }
