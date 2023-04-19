@@ -24,12 +24,14 @@ public class Cavaleiro extends Pessoa implements  Patrulha, Consagra{
 
     @Override
     public void orar() {
-        System.out.println(getNome() + " fez uma oracao ao deus do fogo");
+        System.out.println(this.getNome() + " fez uma oracao ao deus do fogo");
     }
 
     @Override
     public void mostraInfo() {
         super.mostraInfo();
+        if(montaria != null)
+            System.out.println("Montaria: " + montaria.getNome());
         System.out.println("Casa: " + casa);
         System.out.println("Nome do escudeiro: " + nomeEscudeiro);
     }

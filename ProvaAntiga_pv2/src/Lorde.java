@@ -17,7 +17,7 @@ public class Lorde extends Pessoa implements Consagra{
 
     @Override
     public void orar() {
-        System.out.println(getNome() + " fez uma oracao aos setes deuses");
+        System.out.println(this.getNome() + " fez uma oracao aos setes deuses");
     }
 
     @Override

@@ -29,6 +29,9 @@ public abstract class Pessoa {
        System.out.println("Nome: " + nome);
        System.out.println("Idade: " + idade);
        System.out.println("Honra: " + honra);
+       if(arma != null){
+           System.out.println("Arma: " + arma.getTipo());
+       }
    }
 
    public void orar(){

@@ -15,7 +15,7 @@ public class Guarda extends Pessoa implements Patrulha{
 
     @Override
     public void orar() {
-        System.out.println(getNome() + " fez uma oracao aos deuses antigos");
+        System.out.println(this.getNome() + " fez uma oracao aos deuses antigos");
     }
 
     @Override
