@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        int idade;
         // declarando as variaveis
         Pessoa pessoa[] = new Pessoa[3];
         Pessoa L = new Lorde("Davi", 18, 10, "Rosa", 2);

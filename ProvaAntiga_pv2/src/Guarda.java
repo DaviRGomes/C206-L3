@@ -1,10 +1,10 @@
 public class Guarda extends Pessoa implements Patrulha{
     private int coragem;
+
     public Guarda(String nome, int idade, int honra, int coragem) {
-        super( nome, idade, honra);
+        super(nome, idade, honra);
         this.coragem = coragem;
     }
-
 
     @Override
     public void fazerPatrulha() {

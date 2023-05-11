@@ -4,7 +4,6 @@ public abstract class Pessoa {
     private int idade;
     private int honra;
     Arma arma;
-
     public Pessoa(String nome, int idade, int honra) {
         this.qtdPessoas ++;
         this.nome = nome;
