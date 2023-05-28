@@ -26,7 +26,7 @@ public class Conta {
             System.out.println("Saque concluido");
 
         } else {
-            throw new RuntimeException("Saldo Insuficiente");
+            throw new SaldoInsuficienteException("Saldo Insuficiente");
 
         }
 

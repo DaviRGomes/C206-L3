@@ -7,8 +7,8 @@ public class Main {
 
         c1.depositar(200);
         try {
-            c1.sacar(300);
-        }catch (RuntimeException e){
+            c1.sacar(500);
+        }catch (SaldoInsuficienteException e){
             System.out.println("Saldo insuficiente");
         }
     }
