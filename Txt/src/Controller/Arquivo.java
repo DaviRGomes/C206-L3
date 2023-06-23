@@ -51,6 +51,8 @@ public class Arquivo {
             // escrevendo os valores usando bw:
             bw.write("Funcionario");
             bw.newLine();
+            bw.write("AAAAA");
+            bw.newLine();
             bw.write(func.nome + "\n");
             bw.write(func.idade + "\n");
             bw.write(func.cpf + "\n");
